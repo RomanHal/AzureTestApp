@@ -37,6 +37,6 @@ jobs:
           file: ./AzureTestApp/Dockerfile
           push: true
           # Lowercase the tags string to prevent case-sensitive errors
-          tags: ghcr.io/${{ github.repository_owner }}/my-free-api:latest
+          tags: ghcr.io/${{ github.repository_owner }}/azure-test-api:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
