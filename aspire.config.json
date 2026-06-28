@@ -1,0 +1,5 @@
+{
+  "appHost": {
+    "path": "AzureTestApp.AppHost/AzureTestApp.AppHost.csproj"
+  }
+}

@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Project Path="AzureTestApp.AppHost/AzureTestApp.AppHost.csproj" Id="3fad0e3e-8514-4c5f-a4ec-7237c9261863" />
+  <Project Path="AzureTestApp.ServiceDefaults/AzureTestApp.ServiceDefaults.csproj" />
+  <Project Path="AzureTestApp.Tests/AzureTestApp.Tests.csproj" Id="ee967e4b-828e-4c25-ac61-c694d483a701" />
+  <Project Path="AzureTestApp/AzureTestApp.csproj" />
+  <Project Path="ProcessingFunctionApp/ProcessingFunctionApp.csproj" />
+</Solution>
