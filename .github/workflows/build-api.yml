@@ -1,4 +1,4 @@
-name: Build and Pack Container (Free Only)
+name: Build and Pack Container
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 env:
   REGISTRY: ghcr.io
   # Converts your username/repo into the docker image name automatically
-  IMAGE_NAME: ${{ github.repository }}
+  GITHUB_REPOSITORY: ${{ github.repository }}
 
 jobs:
   build-and-push:
@@ -41,6 +41,6 @@ jobs:
           file: ./AzureTestApp/Dockerfile
           push: true
           # Lowercase the tags string to prevent case-sensitive errors
-          tags: ghcr.io/${{ env.IMAGE_OWNER }}/azure-test-api:latest
+          tags: ${{ env.IMAGE_NAME }}:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
