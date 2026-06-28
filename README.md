@@ -8,7 +8,7 @@ ASP.NET Core Web API -> Cosmos DB -> Azure Queue Storage -> Azure Function -> Co
 
 It does not implement production concerns such as authentication, idempotency, custom retry policies, dead-letter handling, distributed tracing, or advanced resilience patterns. The goal is to keep the sample small and focused on local orchestration with .NET Aspire and a basic asynchronous processing workflow.
 
-
+```text
         POST /messages
              |
              v
@@ -55,3 +55,5 @@ It does not implement production concerns such as authentication, idempotency, c
              |
              v
    Processing / Processed
+   
+```
